@@ -3,7 +3,7 @@ import saved from "./../../../service/insta saved.png";
 import bag from "./../../../service/business_center_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 (1).png"
 const JobCard = ({ title, type, salary, company, location, bookmarked }) => {
     return (
-      <div className="bg-white border border-gray-200 shadow-md rounded-md p-3 flex flex-col gap-2 w-[30%] mx-auto relative hover:shadow-lg transition duration-300">
+      <div className="bg-white border border-gray-200 shadow-md rounded-md p-3 flex flex-col gap-2 w-[400px] mx-auto relative hover:shadow-lg transition duration-300">
         {/* Job Title */}
         <h3 className="text-base font-semibold text-gray-800 text-left">{title}</h3>
   

@@ -6,12 +6,15 @@ import JobGrid from './component/JobGrid/JobGrid';
 import SearchBar from './component/SearchBar/SearchBar';
 function App() {
   return (
+    <>
     <div className="App flex-column w-[80%] mx-auto">
     <Header></Header>
     <SearchBar></SearchBar>
     <JobGrid></JobGrid>
-    <Footer></Footer>
     </div>
+    <Footer></Footer>
+
+    </>
   );
 }
 
