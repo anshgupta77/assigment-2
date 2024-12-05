@@ -1,0 +1,64 @@
+/* Global reset for box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #fff;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between bag and text */
+  }
+  
+  .logo-icon {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black; /* Orange for the logo text */
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the toggle button and notification icon */
+  }
+  
+  .toggle-button {
+    background-color: white;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .notification-icon {
+    font-size: 1.2rem;
+    color: #999; /* Gray icon color */
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .notification-icon:hover {
+    color: #f57c00; /* Orange on hover */
+  }
+  
