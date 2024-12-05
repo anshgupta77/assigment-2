@@ -3,6 +3,7 @@ import JobCard from "./JobCard/JobCard";
 const JobGrid = () => {
   const jobs = [
     { title: "Technical Support Specialist", type: "REMOTE", salary: "$20,000 - $25,000", company: "Google Inc.", location: "Dhaka, Bangladesh", bookmarked: false },
+    { title: "Technical Support Specialist", type: "REMOTE", salary: "$20,000 - $25,000", company: "Google Inc.", location: "Dhaka, Bangladesh", bookmarked: false },
     { title: "Software Engineer", type: "REMOTE", salary: "$80,000 - $100,000", company: "Google Inc.", location: "New York, USA", bookmarked: false },
     { title: "Data Analyst", type: "REMOTE", salary: "$60,000 - $80,000", company: "Google Inc.", location: "London, UK", bookmarked: false },
     { title: "UX Designer", type: "REMOTE", salary: "$70,000 - $90,000", company: "Google Inc.", location: "Berlin, Germany", bookmarked: false },

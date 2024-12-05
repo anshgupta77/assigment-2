@@ -6,6 +6,8 @@ const Footer = () => {
   return (
     <footer className="flex justify-between items-center p-4 bg-orange-500 rounded-lg text-white mb-2">
       {/* Left Side: Text */}
+      <div className="w-[80%] mx-auto flex justify-between">
+
       <p>© 2024 ExplorIn, All Rights Reserved</p>
 
       {/* Right Side: Social Icons */}
@@ -14,6 +16,7 @@ const Footer = () => {
         <img src={facebook} alt="Facebook" className="w-6 h-6" />
         <img src={twitter} alt="Facebook" className="w-6 h-6" />
         <img src={youtube} alt="Facebook" className="w-6 h-6" />
+      </div>
       </div>
     </footer>
   );
