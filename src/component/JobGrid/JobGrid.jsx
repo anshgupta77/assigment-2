@@ -43,7 +43,7 @@ const JobGrid = () => {
     { title: "SEO Specialist", type: "REMOTE", salary: "$50,000 - $70,000", company: "Google Inc.", location: "London, UK", bookmarked: false },
     { title: "Cybersecurity Analyst", type: "REMOTE", salary: "$90,000 - $110,000", company: "Google Inc.", location: "Berlin, Germany", bookmarked: false }
   ];
-    // Add more job data here...
+    
   
 
 

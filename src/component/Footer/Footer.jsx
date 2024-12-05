@@ -5,12 +5,11 @@ import twitter from "./../../service/twitter.png"
 const Footer = () => {
   return (
     <footer className="flex justify-between items-center p-4 bg-orange-500 rounded-lg text-white mb-2">
-      {/* Left Side: Text */}
+ 
       <div className="w-[80%] mx-auto flex justify-between">
 
       <p>© 2024 ExplorIn, All Rights Reserved</p>
 
-      {/* Right Side: Social Icons */}
       <div className="flex gap-4">
         <img src={instagram} alt="Instagram" className="w-6 h-6" />
         <img src={facebook} alt="Facebook" className="w-6 h-6" />
